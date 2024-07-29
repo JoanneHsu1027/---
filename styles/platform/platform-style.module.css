@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&display=swap');
+
+.AllFont {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 500;
+}
+
+.BgImg {
+    background-image: url('/forum-pic/bg-img.png'); 
+}
+
+.AReset {
+    text-decoration: none;
+    color: #000;
+}
+
+.BtnReset{
+    border:0;
+    background-color:white;
+    outline:none;
+}
+
+.AReset:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.TitleOverHide{
+    white-space:nowrap; 
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.ContentOverHide{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;   
+    -webkit-line-clamp: 2;
+    height: 42px;
+    line-height: 20px;
+}
+
+.FavHover:hover {
+    color: #4CB1C8;
+}
+
+.FavSet {
+    color: #4CB1C8 !important;
+}
+
+.ShareHover:hover {
+    color:black;
+}
+
+
+.DelHover:hover {
+    color: red;
+}
+
+.Rounded5 {
+    border-radius: 15px;
+}
+
+div.Rounded5 {
+    border-radius: 15px;
+}
+
+.H60 {
+    height: 60%;
+}
+
+.H70 {
+    height: 70%;
+}
+
+.W10 {
+    width: 245px;
+}
+
+.W35 {
+    width: 35%;
+}
+
+
+.W60 {
+    width: 60%;
+}
+
+
+.W80 {
+    width: 80%;
+}
+
+.W95 {
+    width: 95%;
+}
+
+.OrangeYellow {
+    color: #F69A30;
+}
+
+.LightGray {
+    color: #C8C8C8;
+}
+
+.Hover:hover {
+    color: #F4BC7A;
+}
+
+div.BorderCoffee {
+    border-color: #6a513d;
+}
+
+a.BorderCoffee {
+    border-color: #6a513d;
+}
+
+.SetPlaceholder::placeholder {
+    color: #4CB1C8;
+    padding-left: 2%;
+}
+
+.SetPlaceholder2::placeholder {
+   
+    padding-left: 2%;
+}
+
+.BorderBlue {
+    border-color: #4CB1C8;
+}
+
+a.BtnHover:hover {
+    background-color:white;
+    color: #f6d554;
+    border: 1px solid #f6d554;
+}
+
+.CreatArticle{
+    color: #a0a0a0;
+    border: 1px solid white;
+    padding: 4px;
+}
+
+.CreatArticle:hover {
+    color: #f6d554;
+    border: 1px solid #f6d554;
+    border-radius: 5px;
+    padding: 4px;
+    /* margin: -1px; */
+}
+
+.MobileBtnHover:hover{
+    margin-top: 5px;
+    margin-bottom: -5px;
+    background-color:#f6d554;
+    color: white !important;
+    border-bottom: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+a.PageSelect {
+    background-color: #f6d554;
+    color: white;
+    border: 1px solid #f6d554;
+}
+
+.CreateArticleBtn{
+    color: black;
+    border-color: #DEE2E6;
+    background-color: #F8F9FA;
+}
+
+.CreateArticleBtn:hover{
+    color: black;
+    border-color: #DEE2E6;
+    background-color: #F8F9FA;
+}
+
+.GoTopBtn {
+    text-decoration: none;
+    color: #f69a30;
+}
+
+.GoTopBtn:hover {
+    color: #f6d554;
+}
+
+input.BorderEndDel {
+    border-end-end-radius: unset;
+    border-top-right-radius: unset;
+}
+
+button.BorderStartDel {
+    border-start-start-radius: unset;
+    border-bottom-left-radius: unset;
+}
+
+a.MyActive {
+    color: #f6d554 !important;
+    border-bottom: 3px solid #f6d554;
+}
+
+.MobilePageSelect {
+    color: #f6d554 !important;
+    border-bottom: 3px solid #f6d554;
+}
+
+.DisplayChange {
+    display: none;
+}
+
+.DisplayChange.active {
+    display: block;
+}

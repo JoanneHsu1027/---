@@ -1,0 +1,76 @@
+.full {
+  font-family: "Noto Serif TC", serif;
+}
+
+.productImage {
+  width: 100%;
+  margin-bottom: 1rem;
+  height: auto;
+
+}
+.productName {
+  font-size: 1.8rem;
+  color: #6a513d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+  font-weight: 900;
+}
+.productPrice {
+  font-size: 1.8rem;
+  color: #6a513d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+  font-weight: 900;
+}
+
+
+.quantitySelector1 {
+  background-color: #6A513D;
+  color: white;
+  border-bottom-width: 1px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  border-color: #6A513D;
+  color: #FFF5CF;
+  font-weight: 900;
+  /* padding: 6px 10px; */
+}
+
+.quantitySelector2 {
+  background-color: #6A513D;
+  color: white;
+  border-bottom-width: 1px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-color: #6A513D;
+  color: #FFF5CF;
+  font-weight: 900;
+  /* padding: 6px 10px; */
+}
+
+.quantity {
+  background-color: #6A513D;
+  border-color: #6A513D;
+  color: #FFF5CF;
+  font-weight: 900;
+}
+
+
+@media (max-width: 768px) {
+  .productName{
+    padding: 0;
+    font-size: 20px;
+
+  }
+  .productPrice{
+    font-size: 20px;
+  }
+}
